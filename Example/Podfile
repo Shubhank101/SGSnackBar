@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SGSnackBar_Example', :exclusive => true do
+  pod "SGSnackBar", :path => "../"
+end
+
+target 'SGSnackBar_Tests', :exclusive => true do
+  pod "SGSnackBar", :path => "../"
+
+  
+end
