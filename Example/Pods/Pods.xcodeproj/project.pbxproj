@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF76C80CDCE2564EC09C1EC6DADF4B6 /* SGSnackBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBDC82BDAE7F2455B53F8D089AD4EC2B /* SGSnackBar.bundle */; };
+		267B2EECC0784A75FBCB94161F499A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		269B4DDF72B0D18FC492FCB27147D0DC /* Pods-SGSnackBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2B209EB93AB8432EDDB88A9EBB1CED /* Pods-SGSnackBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7C9E130417B210AE063DF6534B7158 /* Pods-SGSnackBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB46F0C801E49E395FFE1F922B8F856 /* Pods-SGSnackBar_Example-dummy.m */; };
+		511A6233D95544C57CFEF6B75A419ECE /* SGSnackBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2C3860101F8947D595C45ECA1AFB15 /* SGSnackBar-dummy.m */; };
+		61776A9449E6877C34CCC20A4758743F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9370A701D6BA2EBBBDB4ABF1BBA4A876 /* SGSnackBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB0D66AFF94D74F427C082B73C38B81 /* SGSnackBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC58D400DCF068DA036E9BBAC788009 /* SGSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7852199EC7A1F8CD0FF7FBF6B885B0E3 /* SGSnackBar.swift */; };
+		BEA8A2D0A6634C68E9518C960C4B762F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C02C43A875812B5FE297219DA04DAF4B /* Pods-SGSnackBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34742B3A25DD78C2169234319400433A /* Pods-SGSnackBar_Tests-dummy.m */; };
+		C193701A1D7FDB5BCD823BD2E6E2D41C /* Pods-SGSnackBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7C96659BACD0E1DC87E82B45E0B6AA /* Pods-SGSnackBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C58802361E080BDC0C158203E07320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933C1E972FEC6A85B79056F9A336A3E0;
+			remoteInfo = SGSnackBar;
+		};
+		163955EAA298E8CDAD006796BF95D43B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC8C9C30F98DA488A4AB31CC856EACE;
+			remoteInfo = "SGSnackBar-SGSnackBar";
+		};
+		2A2405C2747E919A5A89026CF85E1934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933C1E972FEC6A85B79056F9A336A3E0;
+			remoteInfo = SGSnackBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2B209EB93AB8432EDDB88A9EBB1CED /* Pods-SGSnackBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSnackBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		100BB07B7DD0F3A16F95DD9CA86CD162 /* Pods-SGSnackBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSnackBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		15641968170A888EC64A1DCD8643CC75 /* Pods-SGSnackBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSnackBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CB0D66AFF94D74F427C082B73C38B81 /* SGSnackBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSnackBar-umbrella.h"; sourceTree = "<group>"; };
+		3105C0581998BB449FDA29C1FC6A6F4D /* Pods-SGSnackBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSnackBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		34742B3A25DD78C2169234319400433A /* Pods-SGSnackBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSnackBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		3CB46F0C801E49E395FFE1F922B8F856 /* Pods-SGSnackBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSnackBar_Example-dummy.m"; sourceTree = "<group>"; };
+		3E4BF4078B7DB84EA3B31DF198C0575D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		430A28FF04A1AADC4F43B06BE83F1FEB /* Pods-SGSnackBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSnackBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43F6A855ED521E5077595F0B395A9C3D /* Pods-SGSnackBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSnackBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		456B30E42708B8AEA1D14C151192A6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4593279786238931A00FA0B66153E855 /* Pods-SGSnackBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSnackBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49DF4732CE6447645AFFE119A45040E3 /* Pods-SGSnackBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SGSnackBar_Tests.modulemap"; sourceTree = "<group>"; };
+		4B49DD5C6D83B6F14D9C6D33B5BC2D6C /* Pods-SGSnackBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSnackBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSnackBar.xcconfig; sourceTree = "<group>"; };
+		5F1CCFA6825B5B9562299D15DF0F0AE4 /* Pods-SGSnackBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSnackBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60ADA36970221A63C1FE3A8452A97A07 /* SGSnackBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSnackBar-prefix.pch"; sourceTree = "<group>"; };
+		7852199EC7A1F8CD0FF7FBF6B885B0E3 /* SGSnackBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SGSnackBar.swift; sourceTree = "<group>"; };
+		7CC845A8ADF9217F71920FF947456ECD /* Pods-SGSnackBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSnackBar_Example-resources.sh"; sourceTree = "<group>"; };
+		8284531D63F0ECBB62DAE007C5323406 /* Pods-SGSnackBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSnackBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		906CE0CD41CEA7F22F5EC7A00341F51A /* Pods-SGSnackBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSnackBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		AE47896F5A9F20300D89937AAB622427 /* SGSnackBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SGSnackBar.modulemap; sourceTree = "<group>"; };
+		AF9F5EBCE6433C87FCAC28B8EDECC19A /* Pods_SGSnackBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSnackBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC4D13092DA5C283A6826DBBE475E5E4 /* SGSnackBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSnackBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7C96659BACD0E1DC87E82B45E0B6AA /* Pods-SGSnackBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSnackBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		C3D2D9F23587B9D42DFDC81C8DDE9789 /* Pods_SGSnackBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSnackBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63D21F76F6923DD667C89F86752E59C /* Pods-SGSnackBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSnackBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBDC82BDAE7F2455B53F8D089AD4EC2B /* SGSnackBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSnackBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19D492893B474046B523E62FA5E3333 /* Pods-SGSnackBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SGSnackBar_Example.modulemap"; sourceTree = "<group>"; };
+		DEB744C81BE1D49F56D6B6462531E78B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2C3860101F8947D595C45ECA1AFB15 /* SGSnackBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSnackBar-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1440C5B97E0463DBA95B923F43AAB149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267B2EECC0784A75FBCB94161F499A74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F57ABDFD0F5C15C720940DE65BACDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61776A9449E6877C34CCC20A4758743F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8033B57DEA23AFAC713EC9E26EFF5EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A56A5B038A0ED04B5C395D96C825892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8A2D0A6634C68E9518C960C4B762F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC6ABA5B6050E6A20A18CD88F00D702 /* Pods-SGSnackBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				456B30E42708B8AEA1D14C151192A6DA /* Info.plist */,
+				D19D492893B474046B523E62FA5E3333 /* Pods-SGSnackBar_Example.modulemap */,
+				430A28FF04A1AADC4F43B06BE83F1FEB /* Pods-SGSnackBar_Example-acknowledgements.markdown */,
+				C63D21F76F6923DD667C89F86752E59C /* Pods-SGSnackBar_Example-acknowledgements.plist */,
+				3CB46F0C801E49E395FFE1F922B8F856 /* Pods-SGSnackBar_Example-dummy.m */,
+				15641968170A888EC64A1DCD8643CC75 /* Pods-SGSnackBar_Example-frameworks.sh */,
+				7CC845A8ADF9217F71920FF947456ECD /* Pods-SGSnackBar_Example-resources.sh */,
+				BC7C96659BACD0E1DC87E82B45E0B6AA /* Pods-SGSnackBar_Example-umbrella.h */,
+				43F6A855ED521E5077595F0B395A9C3D /* Pods-SGSnackBar_Example.debug.xcconfig */,
+				4B49DD5C6D83B6F14D9C6D33B5BC2D6C /* Pods-SGSnackBar_Example.release.xcconfig */,
+			);
+			name = "Pods-SGSnackBar_Example";
+			path = "Target Support Files/Pods-SGSnackBar_Example";
+			sourceTree = "<group>";
+		};
+		21D51D58E3530107B7FEAEB3862919C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6304E2B21925C3FCA46AC24C93A07B5 /* SGSnackBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47BD11059CC6616E14B274A08849C41B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7852199EC7A1F8CD0FF7FBF6B885B0E3 /* SGSnackBar.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BE474CC8933FA9AAC403F39A61D77BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB744C81BE1D49F56D6B6462531E78B /* Info.plist */,
+				AE47896F5A9F20300D89937AAB622427 /* SGSnackBar.modulemap */,
+				5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */,
+				EF2C3860101F8947D595C45ECA1AFB15 /* SGSnackBar-dummy.m */,
+				60ADA36970221A63C1FE3A8452A97A07 /* SGSnackBar-prefix.pch */,
+				1CB0D66AFF94D74F427C082B73C38B81 /* SGSnackBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGSnackBar";
+			sourceTree = "<group>";
+		};
+		6E7358D0B294327CB14372D80318F92B /* Pods-SGSnackBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4BF4078B7DB84EA3B31DF198C0575D /* Info.plist */,
+				49DF4732CE6447645AFFE119A45040E3 /* Pods-SGSnackBar_Tests.modulemap */,
+				5F1CCFA6825B5B9562299D15DF0F0AE4 /* Pods-SGSnackBar_Tests-acknowledgements.markdown */,
+				8284531D63F0ECBB62DAE007C5323406 /* Pods-SGSnackBar_Tests-acknowledgements.plist */,
+				34742B3A25DD78C2169234319400433A /* Pods-SGSnackBar_Tests-dummy.m */,
+				3105C0581998BB449FDA29C1FC6A6F4D /* Pods-SGSnackBar_Tests-frameworks.sh */,
+				906CE0CD41CEA7F22F5EC7A00341F51A /* Pods-SGSnackBar_Tests-resources.sh */,
+				0A2B209EB93AB8432EDDB88A9EBB1CED /* Pods-SGSnackBar_Tests-umbrella.h */,
+				4593279786238931A00FA0B66153E855 /* Pods-SGSnackBar_Tests.debug.xcconfig */,
+				100BB07B7DD0F3A16F95DD9CA86CD162 /* Pods-SGSnackBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-SGSnackBar_Tests";
+			path = "Target Support Files/Pods-SGSnackBar_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				21D51D58E3530107B7FEAEB3862919C1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D24F7F23109226F5624E46A01B04AE0F /* Products */,
+				8B17F79CDE26AF0B02C8BC4A76F37218 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B17F79CDE26AF0B02C8BC4A76F37218 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6ABA5B6050E6A20A18CD88F00D702 /* Pods-SGSnackBar_Example */,
+				6E7358D0B294327CB14372D80318F92B /* Pods-SGSnackBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A491E3E6FF9F9A7E6135A6BB4A7EFF0C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47BD11059CC6616E14B274A08849C41B /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D24F7F23109226F5624E46A01B04AE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D2D9F23587B9D42DFDC81C8DDE9789 /* Pods_SGSnackBar_Example.framework */,
+				AF9F5EBCE6433C87FCAC28B8EDECC19A /* Pods_SGSnackBar_Tests.framework */,
+				CBDC82BDAE7F2455B53F8D089AD4EC2B /* SGSnackBar.bundle */,
+				BC4D13092DA5C283A6826DBBE475E5E4 /* SGSnackBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6304E2B21925C3FCA46AC24C93A07B5 /* SGSnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				A491E3E6FF9F9A7E6135A6BB4A7EFF0C /* Pod */,
+				5BE474CC8933FA9AAC403F39A61D77BB /* Support Files */,
+			);
+			name = SGSnackBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B6C524E85577EA25982D5F718F25FF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B4DDF72B0D18FC492FCB27147D0DC /* Pods-SGSnackBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661E586570F0D3205E0820C475B91E71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C193701A1D7FDB5BCD823BD2E6E2D41C /* Pods-SGSnackBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1311F4B36C99E1E9C85B929BAD5EADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9370A701D6BA2EBBBDB4ABF1BBA4A876 /* SGSnackBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74FCD8E7527D91ABC897D5DFAA944F0B /* Pods-SGSnackBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1316632F92208E94B17E9814C46BD870 /* Build configuration list for PBXNativeTarget "Pods-SGSnackBar_Tests" */;
+			buildPhases = (
+				657A4ED05633D07FC49B3D3AFD99628F /* Sources */,
+				1440C5B97E0463DBA95B923F43AAB149 /* Frameworks */,
+				1B6C524E85577EA25982D5F718F25FF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D435C93479CF6D91B3BC6C2374B69DE /* PBXTargetDependency */,
+			);
+			name = "Pods-SGSnackBar_Tests";
+			productName = "Pods-SGSnackBar_Tests";
+			productReference = AF9F5EBCE6433C87FCAC28B8EDECC19A /* Pods_SGSnackBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AC8C9C30F98DA488A4AB31CC856EACE /* SGSnackBar-SGSnackBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC21B23B39847C21F9C98DAF4E4FE119 /* Build configuration list for PBXNativeTarget "SGSnackBar-SGSnackBar" */;
+			buildPhases = (
+				6ADBC83B35CF19C09507F00066AE7961 /* Sources */,
+				8033B57DEA23AFAC713EC9E26EFF5EA3 /* Frameworks */,
+				010FE1761735CD4AB5A51F713175FE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SGSnackBar-SGSnackBar";
+			productName = "SGSnackBar-SGSnackBar";
+			productReference = CBDC82BDAE7F2455B53F8D089AD4EC2B /* SGSnackBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8A148CAD0AF977412B2E854E1FC8D438 /* Pods-SGSnackBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77E48F93EE6991437464D6E565011C6 /* Build configuration list for PBXNativeTarget "Pods-SGSnackBar_Example" */;
+			buildPhases = (
+				E14E9BAF42463A686EB9CA37E7BD8B42 /* Sources */,
+				9A56A5B038A0ED04B5C395D96C825892 /* Frameworks */,
+				661E586570F0D3205E0820C475B91E71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE04C9D58F3D7BEF93712FE14FED2478 /* PBXTargetDependency */,
+			);
+			name = "Pods-SGSnackBar_Example";
+			productName = "Pods-SGSnackBar_Example";
+			productReference = C3D2D9F23587B9D42DFDC81C8DDE9789 /* Pods_SGSnackBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		933C1E972FEC6A85B79056F9A336A3E0 /* SGSnackBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EB187DFC35073144F4F23CEA389646 /* Build configuration list for PBXNativeTarget "SGSnackBar" */;
+			buildPhases = (
+				86C5D5F2B04A51F40BBE7DF53CFA9D86 /* Sources */,
+				46F57ABDFD0F5C15C720940DE65BACDF /* Frameworks */,
+				5544C38D913DB657361A03CDA5C7D6C7 /* Resources */,
+				D1311F4B36C99E1E9C85B929BAD5EADF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5804AADB236E14C32C099BE4FF6D9DF4 /* PBXTargetDependency */,
+			);
+			name = SGSnackBar;
+			productName = SGSnackBar;
+			productReference = BC4D13092DA5C283A6826DBBE475E5E4 /* SGSnackBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D24F7F23109226F5624E46A01B04AE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A148CAD0AF977412B2E854E1FC8D438 /* Pods-SGSnackBar_Example */,
+				74FCD8E7527D91ABC897D5DFAA944F0B /* Pods-SGSnackBar_Tests */,
+				933C1E972FEC6A85B79056F9A336A3E0 /* SGSnackBar */,
+				7AC8C9C30F98DA488A4AB31CC856EACE /* SGSnackBar-SGSnackBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010FE1761735CD4AB5A51F713175FE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5544C38D913DB657361A03CDA5C7D6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF76C80CDCE2564EC09C1EC6DADF4B6 /* SGSnackBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657A4ED05633D07FC49B3D3AFD99628F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02C43A875812B5FE297219DA04DAF4B /* Pods-SGSnackBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADBC83B35CF19C09507F00066AE7961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C5D5F2B04A51F40BBE7DF53CFA9D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511A6233D95544C57CFEF6B75A419ECE /* SGSnackBar-dummy.m in Sources */,
+				AEC58D400DCF068DA036E9BBAC788009 /* SGSnackBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14E9BAF42463A686EB9CA37E7BD8B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7C9E130417B210AE063DF6534B7158 /* Pods-SGSnackBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5804AADB236E14C32C099BE4FF6D9DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SGSnackBar-SGSnackBar";
+			target = 7AC8C9C30F98DA488A4AB31CC856EACE /* SGSnackBar-SGSnackBar */;
+			targetProxy = 163955EAA298E8CDAD006796BF95D43B /* PBXContainerItemProxy */;
+		};
+		8D435C93479CF6D91B3BC6C2374B69DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGSnackBar;
+			target = 933C1E972FEC6A85B79056F9A336A3E0 /* SGSnackBar */;
+			targetProxy = 05C58802361E080BDC0C158203E07320 /* PBXContainerItemProxy */;
+		};
+		EE04C9D58F3D7BEF93712FE14FED2478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGSnackBar;
+			target = 933C1E972FEC6A85B79056F9A336A3E0 /* SGSnackBar */;
+			targetProxy = 2A2405C2747E919A5A89026CF85E1934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195C5920790A3BAA8EEA36F4A318390C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SGSnackBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2F426097B8F6620A2A6794F45BF2B564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SGSnackBar/SGSnackBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGSnackBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGSnackBar/SGSnackBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SGSnackBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4190A903814A80DAA4FA0B520726CD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SGSnackBar/SGSnackBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGSnackBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGSnackBar/SGSnackBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SGSnackBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		782DCBF6CAADC229C9CD7CD1B96CA3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4593279786238931A00FA0B66153E855 /* Pods-SGSnackBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SGSnackBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGSnackBar_Tests/Pods-SGSnackBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SGSnackBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		849591AE6BE0B699119533DF7E27E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F6A855ED521E5077595F0B395A9C3D /* Pods-SGSnackBar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SGSnackBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGSnackBar_Example/Pods-SGSnackBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SGSnackBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4DDBAEBB07B23C2707784EEA8851EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100BB07B7DD0F3A16F95DD9CA86CD162 /* Pods-SGSnackBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SGSnackBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGSnackBar_Tests/Pods-SGSnackBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SGSnackBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7DA2F1D1B46FBC73BECDC17C6112D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B49DD5C6D83B6F14D9C6D33B5BC2D6C /* Pods-SGSnackBar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SGSnackBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGSnackBar_Example/Pods-SGSnackBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SGSnackBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F083CE2930906875804042BBD8C1523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SGSnackBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1316632F92208E94B17E9814C46BD870 /* Build configuration list for PBXNativeTarget "Pods-SGSnackBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782DCBF6CAADC229C9CD7CD1B96CA3DD /* Debug */,
+				D4DDBAEBB07B23C2707784EEA8851EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EB187DFC35073144F4F23CEA389646 /* Build configuration list for PBXNativeTarget "SGSnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4190A903814A80DAA4FA0B520726CD2C /* Debug */,
+				2F426097B8F6620A2A6794F45BF2B564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77E48F93EE6991437464D6E565011C6 /* Build configuration list for PBXNativeTarget "Pods-SGSnackBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849591AE6BE0B699119533DF7E27E0D5 /* Debug */,
+				E7DA2F1D1B46FBC73BECDC17C6112D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC21B23B39847C21F9C98DAF4E4FE119 /* Build configuration list for PBXNativeTarget "SGSnackBar-SGSnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195C5920790A3BAA8EEA36F4A318390C /* Debug */,
+				F083CE2930906875804042BBD8C1523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

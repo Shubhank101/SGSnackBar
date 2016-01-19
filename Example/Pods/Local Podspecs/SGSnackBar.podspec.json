@@ -1,0 +1,25 @@
+{
+  "name": "SGSnackBar",
+  "version": "0.1.1",
+  "summary": "Open source lib SGSnackBar.",
+  "description": "Testing Description of the lib.. It will be multile. Use it just use it",
+  "homepage": "http://www.google.com",
+  "license": "MIT",
+  "authors": {
+    "Shubhank Gupta": "shubhankscores@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SGSnackBar.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SGSnackBar": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

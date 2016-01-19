@@ -1,0 +1,14 @@
+PODS:
+  - SGSnackBar (0.1.1)
+
+DEPENDENCIES:
+  - SGSnackBar (from `../`)
+
+EXTERNAL SOURCES:
+  SGSnackBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SGSnackBar: 835c90b1516a5f19fe3f89e32fe0fced7ca23c36
+
+COCOAPODS: 0.39.0
