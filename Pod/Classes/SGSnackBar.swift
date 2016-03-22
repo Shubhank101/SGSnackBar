@@ -22,8 +22,8 @@ private func delay(delay:Double, closure:()->()) {
 }
 
 public extension UIView {
-    func showSnackMessage(descriptionText: String, duration:SnackbarDuration, actionButtonText:String?, buttonClicked : (() -> ())?) {
-        SGSnackBarView.showSnackMessage(descriptionText, duration: duration, actionButtonText: actionButtonText, superView: self, buttonClicked: buttonClicked)
+    func showSnackMessage(descriptionText: String, duration:SnackbarDuration, actionButtonText:String?, actionButtonClickHandler : (() -> ())?) {
+        SGSnackBarView.showSnackMessage(descriptionText, duration: duration, actionButtonText: actionButtonText, superView: self, buttonClicked: actionButtonClickHandler)
     }
 }
 

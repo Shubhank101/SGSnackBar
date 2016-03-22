@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         SGSnackBarView.appearance().actionButtonBackgroundColor = UIColor.orangeColor()
         SGSnackBarView.appearance().descLabelTextColor = UIColor.whiteColor()
         SGSnackBarView.appearance().snackBarBgColor = UIColor.redColor()
-        self.view.window!.showSnackMessage("ORANGE\nMultiline", duration: SnackbarDuration.SHORT, actionButtonText: nil,buttonClicked: nil)
+        self.view.window!.showSnackMessage("ORANGE\nMultiline", duration: SnackbarDuration.SHORT, actionButtonText: nil, actionButtonClickHandler: nil)
     }
     
     @IBAction func showThemed2(sender: AnyObject) {

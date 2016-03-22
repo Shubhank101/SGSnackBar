@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SGSnackBar"
-  s.version          = "0.1.1"
+  s.version          = "1.0.0"
   s.summary          = "An Android snackbar type information toast/popup"
 
 # This description is used to generate tags and improve search results.
