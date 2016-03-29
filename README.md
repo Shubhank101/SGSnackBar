@@ -1,12 +1,7 @@
 # SGSnackBar
 
-[![CI Status](http://img.shields.io/travis/Shubhank Gupta/SGSnackBar.svg?style=flat)](https://travis-ci.org/Shubhank Gupta/SGSnackBar)
-[![Version](https://img.shields.io/cocoapods/v/SGSnackBar.svg?style=flat)](http://cocoapods.org/pods/SGSnackBar)
-[![License](https://img.shields.io/cocoapods/l/SGSnackBar.svg?style=flat)](http://cocoapods.org/pods/SGSnackBar)
-[![Platform](https://img.shields.io/cocoapods/p/SGSnackBar.svg?style=flat)](http://cocoapods.org/pods/SGSnackBar)
-
 ## Requirements
-Xcode 7.0 and Swift 2.0
+Xcode 7.0+ and Swift 2.0
 
 ## Info
 
@@ -18,10 +13,10 @@ Auto dismisses after the duration you set so easy management from code point of 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-#### Show the snackbar on any view
+#### Show the snackbar on any view or window
 
 ```
-self.view.window!.showSnackMessage("My Snackbar message", duration: SnackbarDuration.SHORT, actionButtonText: "OK") { () -> () in
+self.view.showSnackMessage("My Snackbar message", duration: SnackbarDuration.SHORT, actionButtonText: "OK") { () -> () in
 ```
 ##### Params
 
@@ -39,6 +34,7 @@ actionButtonClickHandler    - Swift closure that is executed when user presses t
 SGSnackBarView.appearance().actionButtonBackgroundColor
 SGSnackBarView.appearance().descLabelTextColor
 SGSnackBarView.appearance().snackBarBgColor
+SGSnackBarView.appearance().actionButtonTextColor
 ```
 All of the above can be set to display custom snackbar.
 

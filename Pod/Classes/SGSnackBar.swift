@@ -33,7 +33,8 @@ public class SGSnackBarView: UIView {
     
     public dynamic var descLabelTextColor: UIColor?
     public dynamic var actionButtonBackgroundColor: UIColor?
-    
+    public dynamic var actionButtonTextColor: UIColor?
+
     private var actionButton:UIButton!
     private var descriptionLabel:UILabel!
     
@@ -87,6 +88,7 @@ public class SGSnackBarView: UIView {
     
     func addActionButton() {
         actionButton = UIButton(type: UIButtonType.Custom)
+        actionButton.showsTouchWhenHighlighted = true
         actionButton.setTitleColor( UIColor.whiteColor(), forState: UIControlState.Normal)
         actionButton.hidden = true
         if self.actionButtonText != nil {
@@ -122,6 +124,10 @@ public class SGSnackBarView: UIView {
         if self.actionButtonBackgroundColor != nil {
             self.actionButton.backgroundColor = actionButtonBackgroundColor
         }
+        
+        if self.actionButtonTextColor != nil {
+            self.actionButton.setTitleColor( self.actionButtonTextColor, forState: UIControlState.Normal)
+        }
     }
     
     func animateIn() {
@@ -138,18 +144,24 @@ public class SGSnackBarView: UIView {
     
     func automaticDismissSetup(duration: SnackbarDuration) {
         delay(Double(duration.rawValue)) { () -> () in
-            self.bottomConstraint.constant = 90
-            UIView.animateWithDuration(1.2, delay: 0.0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.7, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
-                self.layoutIfNeeded()
-                }, completion: { (completed) -> Void in
-                    self.removeFromSuperview()
-                }
-            )
+          self.animateOutsideScreen()
         }
         
     }
     
+    func animateOutsideScreen() {
+        self.bottomConstraint.constant = 90
+        UIView.animateWithDuration(1.2, delay: 0.0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.7, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
+            self.layoutIfNeeded()
+            }, completion: { (completed) -> Void in
+                self.removeFromSuperview()
+            }
+        )
+    }
+    
     func doneTapped() {
+        self.animateOutsideScreen()
+
         if self.buttonClickedClosure != nil {
             self.buttonClickedClosure!()
         }

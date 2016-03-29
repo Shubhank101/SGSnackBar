@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Gg8-bu-rR2">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--SGSnackBar-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SGSnackBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SGSnackBar" id="vXZ-lx-hvc" customClass="ViewController" customModule="SGSnackBar_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -18,14 +18,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w11-iL-c5R">
-                                <rect key="frame" x="225" y="111" width="151" height="30"/>
-                                <animations/>
+                                <rect key="frame" x="205" y="105" width="189" height="36"/>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.11372549019607843" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="151" id="emX-aO-4L6"/>
+                                    <constraint firstAttribute="width" constant="189" id="emX-aO-4L6"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="o69-4M-9jS"/>
-                                    <constraint firstAttribute="height" constant="30" id="xFm-vp-tE3"/>
+                                    <constraint firstAttribute="height" constant="36" id="xFm-vp-tE3"/>
                                 </constraints>
-                                <state key="normal" title="Show Basic"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Show Basic">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="o69-4M-9jS"/>
@@ -36,26 +39,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-Ju-Gpx">
-                                <rect key="frame" x="225" y="165" width="151" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="205" y="165" width="189" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="c2f-tf-gyd"/>
-                                    <constraint firstAttribute="width" constant="151" id="v1D-a5-Xwf"/>
+                                    <constraint firstAttribute="height" constant="36" id="c2f-tf-gyd"/>
+                                    <constraint firstAttribute="width" constant="189" id="v1D-a5-Xwf"/>
                                 </constraints>
-                                <state key="normal" title="Theme"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Theme">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showThemed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zg7-7I-Zqz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqy-D3-JPM">
-                                <rect key="frame" x="225" y="227" width="151" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="205" y="227" width="189" height="36"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="151" id="dr4-Nx-o44"/>
-                                    <constraint firstAttribute="height" constant="30" id="sEy-zH-VvX"/>
+                                    <constraint firstAttribute="width" constant="189" id="dr4-Nx-o44"/>
+                                    <constraint firstAttribute="height" constant="36" id="sEy-zH-VvX"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Theme Variation 2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,20 +69,41 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Rqy-D3-JPM" firstAttribute="top" secondItem="Xcd-Ju-Gpx" secondAttribute="bottom" constant="32" id="BNq-Ka-V4G"/>
-                            <constraint firstItem="w11-iL-c5R" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="91" id="RZO-JI-AgL"/>
+                            <constraint firstItem="Rqy-D3-JPM" firstAttribute="top" secondItem="Xcd-Ju-Gpx" secondAttribute="bottom" constant="26" id="BNq-Ka-V4G"/>
+                            <constraint firstItem="w11-iL-c5R" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="85" id="RZO-JI-AgL"/>
                             <constraint firstItem="Xcd-Ju-Gpx" firstAttribute="top" secondItem="w11-iL-c5R" secondAttribute="bottom" constant="24" id="Wbm-Jk-R2A"/>
                             <constraint firstItem="Xcd-Ju-Gpx" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="o0S-5m-KMn"/>
                             <constraint firstItem="w11-iL-c5R" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="tFt-l8-t1q"/>
                             <constraint firstItem="Rqy-D3-JPM" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="vVc-9Y-nuf"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="yIs-ug-GTh"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1117" y="372"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zAM-wZ-Xqv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gg8-bu-rR2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Xj6-cW-mYK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.92941176469999998" green="0.1137254902" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Aom-g1-7Bf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDl-Rw-WKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="141"/>
         </scene>
     </scenes>
 </document>
