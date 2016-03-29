@@ -1,8 +1,27 @@
 //  SGSnackBar
 //
 //  Created by Shubhank Gupta on 01/17/2016.
-//  Copyright (c) 2016 Shubhank Gupta. All rights reserved.
+
+
+//    Copyright (c) 2016 Shubhank Gupta <shubhankscores@gmail.com>
 //
+//    Permission is hereby granted, free of charge, to any person obtaining a copy
+//    of this software and associated documentation files (the "Software"), to deal
+//    in the Software without restriction, including without limitation the rights
+//    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//    copies of the Software, and to permit persons to whom the Software is
+//    furnished to do so, subject to the following conditions:
+//
+//    The above copyright notice and this permission notice shall be included in
+//    all copies or substantial portions of the Software.
+//
+//    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+//    THE SOFTWARE.
 
 import Foundation
 import UIKit
@@ -21,7 +40,9 @@ private func delay(delay:Double, closure:()->()) {
         dispatch_get_main_queue(), closure)
 }
 
+//category to show snackbar simply on the view
 public extension UIView {
+    
     func showSnackMessage(descriptionText: String, duration:SnackbarDuration, actionButtonText:String?, actionButtonClickHandler : (() -> ())?) {
         SGSnackBarView.showSnackMessage(descriptionText, duration: duration, actionButtonText: actionButtonText, superView: self, buttonClicked: actionButtonClickHandler)
     }
@@ -29,8 +50,8 @@ public extension UIView {
 
 public class SGSnackBarView: UIView {
     
+    // appearance properties
     public dynamic var snackBarBgColor: UIColor?
-    
     public dynamic var descLabelTextColor: UIColor?
     public dynamic var actionButtonBackgroundColor: UIColor?
     public dynamic var actionButtonTextColor: UIColor?
@@ -43,13 +64,13 @@ public class SGSnackBarView: UIView {
     var actionButtonText:String?
     var descriptionText:String!
     
+    // helper method to initialize and show Snackbar
     public class func showSnackMessage(descriptionText: String, duration:SnackbarDuration, actionButtonText:String?, superView:UIView!, buttonClicked : (() -> ())?) {
         
         let snackBar = SGSnackBarView()
         snackBar.buttonClickedClosure = buttonClicked
         snackBar.actionButtonText = actionButtonText
         snackBar.descriptionText = descriptionText
-        
         
         snackBar.translatesAutoresizingMaskIntoConstraints = false
         superView.addSubview(snackBar)
