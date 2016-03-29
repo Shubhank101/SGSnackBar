@@ -40,7 +40,7 @@ All of the above can be set to display custom snackbar.
 
 ## Demo
 
-![Demo](http://i.imgur.com/CwErCLZ.gif)
+![Demo](http://i.imgur.com/P8nfd80.gif)
 
 
 ## Installation
