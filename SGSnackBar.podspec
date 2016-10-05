@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SGSnackBar"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "An Android snackbar type information toast/popup"
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,5 @@ s.homepage         = "https://github.com/Shubhank101/SGSnackBar"
     'SGSnackBar' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end

@@ -115,7 +115,7 @@ public class SGSnackBarView: UIView {
         if self.actionButtonText != nil {
             actionButton.hidden = false
             actionButton.setTitle(actionButtonText?.uppercaseString, forState: UIControlState.Normal)
-            actionButton.addTarget(self, action: "doneTapped", forControlEvents: UIControlEvents.TouchUpInside)
+            actionButton.addTarget(self, action: #selector(doneTapped), forControlEvents: UIControlEvents.TouchUpInside)
         }
         
         actionButton.translatesAutoresizingMaskIntoConstraints = false
