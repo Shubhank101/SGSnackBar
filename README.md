@@ -3,7 +3,7 @@
 ## Requirements
 Xcode 9.0+ and Swift 4.0
 
-> To use swift 2.0 version, please use 1.0.0 cocoapod version or swift 2 tag of the repo
+> To use swift 2.0 version, please use 1.0.1 cocoapod version or swift 2 tag of the repo
 
 ## Info
 
