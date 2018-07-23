@@ -1,7 +1,9 @@
 # SGSnackBar
 
 ## Requirements
-Xcode 7.0+ and Swift 2.0
+Xcode 9.0+ and Swift 4.0
+
+> To use swift 2.0 version, please use 1.0.0 cocoapod version or swift 2 tag of the repo
 
 ## Info
 
@@ -16,12 +18,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 #### Show the snackbar on any view or window
 
 ```
-self.view.showSnackMessage("My Snackbar message", duration: SnackbarDuration.SHORT, actionButtonText: "OK") { () -> () in
+self.view.showSnackbar(message: "My Snackbar message", duration: SnackbarDuration.SHORT, actionButtonText: "OK") { () -> () in
 ```
 ##### Params
 
 ```
-descriptionText             - Text to show in the snackbar message
+message                     - Text to show in the snackbar message
 duration                    - SHORT - 4 second or LONG - 7 second
 actionButtonText            - optional - if set shows the action button
 actionButtonClickHandler    - Swift closure that is executed when user presses the action button
