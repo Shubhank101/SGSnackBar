@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Gg8-bu-rR2">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gg8-bu-rR2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--SGSnackBar-->
@@ -14,12 +18,12 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w11-iL-c5R">
-                                <rect key="frame" x="205" y="105" width="189" height="36"/>
-                                <color key="backgroundColor" red="0.92941176470588238" green="0.11372549019607843" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="93" y="105" width="189" height="36"/>
+                                <color key="backgroundColor" red="0.92941176470588238" green="0.11372549019607843" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="189" id="emX-aO-4L6"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="o69-4M-9jS"/>
@@ -27,7 +31,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Show Basic">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -35,41 +39,41 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="showBasic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="l6B-Mu-6TM"/>
+                                    <action selector="showBasicWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4OB-SY-IXS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-Ju-Gpx">
-                                <rect key="frame" x="205" y="165" width="189" height="36"/>
-                                <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="93" y="165" width="189" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="c2f-tf-gyd"/>
                                     <constraint firstAttribute="width" constant="189" id="v1D-a5-Xwf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Theme">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="showThemed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zg7-7I-Zqz"/>
+                                    <action selector="showThemedWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zEV-W6-l8e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqy-D3-JPM">
-                                <rect key="frame" x="205" y="227" width="189" height="36"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="93" y="227" width="189" height="36"/>
+                                <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="189" id="dr4-Nx-o44"/>
                                     <constraint firstAttribute="height" constant="36" id="sEy-zH-VvX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Theme Variation 2">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="showThemed2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NRS-4i-Uok"/>
+                                    <action selector="showThemed2WithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5l7-Fx-n6I"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Rqy-D3-JPM" firstAttribute="top" secondItem="Xcd-Ju-Gpx" secondAttribute="bottom" constant="26" id="BNq-Ka-V4G"/>
                             <constraint firstItem="w11-iL-c5R" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="85" id="RZO-JI-AgL"/>
@@ -92,9 +96,9 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gg8-bu-rR2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Xj6-cW-mYK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.92941176469999998" green="0.1137254902" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.92941176469999998" green="0.1137254902" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

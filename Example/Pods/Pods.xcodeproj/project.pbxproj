@@ -491,6 +491,7 @@
 			baseConfigurationReference = 5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Pods-SGSnackBar_Example/Info.plist";
 				PRODUCT_NAME = SGSnackBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -721,6 +722,7 @@
 			baseConfigurationReference = 5303EC93109FB9F9F016DEF1341654BD /* SGSnackBar.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Pods-SGSnackBar_Example/Info.plist";
 				PRODUCT_NAME = SGSnackBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

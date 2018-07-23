@@ -41,8 +41,8 @@ private func delay(_ delay:Int, closure:@escaping ()->()) {
 //category to show snackbar simply on the view
 public extension UIView {
     
-    func showSnackMessage(descriptionText: String, duration:SnackbarDuration, actionButtonText:String?, actionButtonClickHandler : (() -> ())?) {
-        SGSnackBarView.show(message: descriptionText, duration: duration, actionButtonText: actionButtonText, superView: self, buttonClicked: actionButtonClickHandler)
+    func showSnackbar(message: String, duration:SnackbarDuration, actionButtonText:String?, actionButtonClickHandler : (() -> ())?) {
+        SGSnackBarView.show(message: message, duration: duration, actionButtonText: actionButtonText, superView: self, buttonClicked: actionButtonClickHandler)
     }
 }
 
@@ -150,11 +150,11 @@ public class SGSnackBarView: UIView {
     }
     
     func animateIn() {
-        self.layoutIfNeeded()
+        superview?.layoutIfNeeded()
         
         self.bottomConstraint.constant = 0
         UIView.animate(withDuration: 1.2, delay: 0.0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.7, options: .curveEaseOut, animations: {
-            self.layoutIfNeeded()
+            self.superview?.layoutIfNeeded()
         }, completion: nil)
         
     }
@@ -169,7 +169,7 @@ public class SGSnackBarView: UIView {
     func animateOutsideScreen() {
         self.bottomConstraint.constant = 90
         UIView.animate(withDuration: 1.2, delay: 0.0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.7, options: .curveEaseOut, animations: {
-            self.layoutIfNeeded()
+            self.superview?.layoutIfNeeded()
         }, completion: { (completed) -> Void in
             self.removeFromSuperview()
         }
