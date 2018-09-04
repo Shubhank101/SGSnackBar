@@ -51,6 +51,7 @@ public class SGSnackBarView: UIView {
     // appearance properties
     @objc public dynamic var snackBarBgColor: UIColor?
     @objc public dynamic var descLabelTextColor: UIColor?
+    @objc public dynamic var descLabelFont: UIFont?
     @objc public dynamic var actionButtonBackgroundColor: UIColor?
     @objc public dynamic var actionButtonTextColor: UIColor?
     
@@ -138,6 +139,10 @@ public class SGSnackBarView: UIView {
         
         if self.descLabelTextColor != nil {
             self.descriptionLabel.textColor = descLabelTextColor
+        }
+        
+        if self.descLabelFont != nil {
+            self.descriptionLabel.font = descLabelFont
         }
         
         if self.actionButtonBackgroundColor != nil {
